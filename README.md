@@ -9,7 +9,7 @@ Lunch instructions:
 
 3. exec: docker-compose up.
 
-   from the "docker-compose.yml", build the images as "amichaitr/restapi-pg-db" and "amichaitr/postgres" then "run the containers as "api" and "pg_db".
+   from the "docker-compose.yml", it builds the images as "amichaitr/restapi-pg-db" and "amichaitr/postgres" then it's running the containers as "api" and "pg_db".
    
    in the "amichaitr/postgres" Dockerfile, i use the environment variables of the official image of postgres, to define the username password and database for the application.
    
