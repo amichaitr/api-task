@@ -18,6 +18,8 @@ Lunch instructions:
 4. To insert a new name to the table, use:
 curl -d '{"name":"\<person-name\>", "age":"\<person-age\>"}' -H "Content-Type: application/json" -X POST http://0.0.0.0:5000/api/v1/persons
   
+  The respons to that request is a json object contain the new person that added to the table.
+  
 5. To query the database for all names that are of certain age, use:
 curl  http://0.0.0.0:5000/api/v1/persons/age=<x\>
   
