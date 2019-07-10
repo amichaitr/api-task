@@ -18,7 +18,7 @@ Lunch instructions:
 curl -d '{"name":"\<person-name\>", "age":"\<person-age\>"}' -H "Content-Type: application/json" -X POST http://0.0.0.0:5000/api/v1/persons
   
 5. to query the database for all names that are of certain age, use:
-curl  http://0.0.0.0:5000/api/v1/persons/age=\<x\>
+curl  http://0.0.0.0:5000/api/v1/persons/age=<x\>
   
 6. to shutdown the application use:
 curl  http://0.0.0.0:5000/shutdown
