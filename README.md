@@ -15,7 +15,7 @@ Lunch instructions:
    When the application starts, it creates the "persons" table according to the schema.
    
 4. to insert a new name to the table, use:
-curl -d '{"name":"<person-name>", "age":"<person-age>"}' -H "Content-Type: application/json" -X POST http://0.0.0.0:5000/api/v1/persons
+curl -d '{"name":"\<person-name\>", "age":"\<person-age\>"}' -H "Content-Type: application/json" -X POST http://0.0.0.0:5000/api/v1/persons
   
 5. to query the database for all names that are of certain age, use:
 curl  http://0.0.0.0:5000/api/v1/persons/age=<x>
